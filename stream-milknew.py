@@ -9,7 +9,7 @@ st.title('Klasifikasi Kualitas Susu (Milk Classification)')
 col1, col2 = st.columns(2)
 
 with col1:
-    pH = st.number_input('pH Alus Susu')
+    pH = st.text_input('pH Alus Susu')
 
 with col1:
     Temprature = st.text_input('Suhu Susu') 
